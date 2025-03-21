@@ -1,0 +1,13 @@
+Hooks are new feature addition in react version 16.8 that allows us to use React features without writing the class
+
+Hooks don't work inside the class
+
+Why it is needed ? 
+Reason1 - this keyword work in js
+Remember to bind event handlers in class components
+Reason2 - no particular way of reusing the stateful component logic
+no sharing of stateful logic
+Reason3 - Related code is not organized in one place
+example -
+Data fetching - In componentDidMount and componentDidUpdate
+EventListeners - In componentDidMount and componentWillUnmount
